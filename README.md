@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Rate Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Description: 
+An desktop application build for the company(Shree Vallabh Packaging) for there ease of calculations and some automations
 
-## Available Scripts
+- Ease to use app, easy backup system
+- Owners just need to add there values and other calculations storing and recommending our app will handle
+- Simply click on ExportToExcel for backup and ImportFromExcel to retirve data
+- They needed to manually type whatsapp mssg to send to there clients the quotation our app will directly create the message and send to the selected person the selected data
+- No internet required.
 
-In the project directory, you can run:
+# Technologies used:
+<p>
+  <img src="https://user-images.githubusercontent.com/83919508/168467400-298dd827-0c7c-403a-974f-b652a5f1dd27.png" width="40px" height="40px"></img>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://user-images.githubusercontent.com/83919508/168467435-41d873f4-8d98-446b-a81b-8deab869361b.png" width="40px" height="40px"></img>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://user-images.githubusercontent.com/83919508/210067047-9458a360-f60b-43ac-a284-1b636866d7c9.png" width="40px" height="40px"></img>
 
-### `npm start`
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br><br>
+# electron-quick-start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Clone and run for a quick way to see IDE in action.**
 
-### `npm test`
+A basic Electron application needs just these files:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `package.json` - Points to the app's main file and lists its details and dependencies.
+- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
+- `index.html` - A web page to render. This is the app's **renderer process**.
 
-### `npm run build`
+You can learn more about each of these components in depth within the [Tutorial](https://electronjs.org/docs/latest/tutorial/tutorial-prerequisites).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## To Use
+Make sure your verison is below 16.0.3 of nodejs for testing purpose, productions process will not create any problem.
+To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify )
+```bash
+# Clone this repository
+git clone https://github.com/neel0086/AdvanceIDE.git
+# Install dependencies
+npm install
+# Run the app
+npm run dev
+```
